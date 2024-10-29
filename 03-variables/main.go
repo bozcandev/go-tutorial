@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"reflect"
+)
 
 func main() {
 	//variable decleration
@@ -24,15 +27,17 @@ func main() {
 	language = "GO"
 	fmt.Println(",Second Variable Value:", language)
 
-
-//multiple variable decleration
+	//multiple variable decleration
 	var (
-		productID = 1100
-		productName = "Keyboard"
+		productID    = 1100
+		productName  = "Keyboard"
 		productPrice = 10.99
-		discount = 10
-		sale = true
+		discount     = 10
+		sale         = true
 	)
 
 	fmt.Println(productID, productName, productPrice, discount, sale)
+
+	//reflect.TypeOf command gets the type of the variable
+	fmt.Println(reflect.TypeOf(productID), reflect.TypeOf(productName), reflect.TypeOf(productPrice), reflect.TypeOf(discount), reflect.TypeOf(sale))
 }
