@@ -23,4 +23,16 @@ func main() {
 	fmt.Print("First Variable Value:", language)
 	language = "GO"
 	fmt.Println(",Second Variable Value:", language)
+
+
+//multiple variable decleration
+	var (
+		productID = 1100
+		productName = "Keyboard"
+		productPrice = 10.99
+		discount = 10
+		sale = true
+	)
+
+	fmt.Println(productID, productName, productPrice, discount, sale)
 }
