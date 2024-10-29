@@ -39,5 +39,9 @@ func main() {
 	fmt.Println(productID, productName, productPrice, discount, sale)
 
 	//reflect.TypeOf command gets the type of the variable
-	fmt.Println(reflect.TypeOf(productID), reflect.TypeOf(productName), reflect.TypeOf(productPrice), reflect.TypeOf(discount), reflect.TypeOf(sale))
+	fmt.Println(reflect.TypeOf(productID),
+		reflect.TypeOf(productName),
+		reflect.TypeOf(productPrice),
+		reflect.TypeOf(discount),
+		reflect.TypeOf(sale))
 }
