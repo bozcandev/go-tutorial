@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// constant can not ve change like a variable
+// constant values can not change like a variable
 const version = 0.1
 
 func main() {
