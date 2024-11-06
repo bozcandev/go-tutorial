@@ -17,4 +17,10 @@ func main() {
 		fmt.Println(cars[i])
 	}
 	fmt.Println("***")
+
+	fmt.Println("range loop starts ...")
+	for i, k := range cars {
+		fmt.Println(i, k)
+	}
+
 }
