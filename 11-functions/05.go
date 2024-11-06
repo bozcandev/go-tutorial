@@ -1,3 +1,4 @@
+// send slice to func
 package main
 
 import "fmt"

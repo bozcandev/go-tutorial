@@ -1,3 +1,4 @@
+// multiple return functions
 package main
 
 import "fmt"
