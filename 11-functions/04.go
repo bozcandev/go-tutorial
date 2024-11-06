@@ -10,6 +10,7 @@ func main() {
 }
 
 func Sum(x, y int) (sum int) {
+	// sum is the variable name
 	sum = x + y
 	return sum
 }
